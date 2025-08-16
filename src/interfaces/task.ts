@@ -1,4 +1,10 @@
 export interface createTask {
-  title: String,
-  description?: String
+  title: string,
+  description: string
+}
+
+export interface updateTask {
+  title?: string,
+  description?: string,
+  completed?: boolean
 }
